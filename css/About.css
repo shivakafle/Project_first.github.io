@@ -75,8 +75,8 @@
 .About_page .About_middle .text::before {
   position: absolute;
   content: '';
-  width: 70%;
-  height: 100%;
+  width: 450px;
+  height: 450px;
   background: rgba(0, 0, 0, 0.1);
   top: 0;
   left: 50%;
@@ -188,9 +188,9 @@
 .About_page .About_country .country button {
   border: none;
   outline: none;
-  padding: 7px 35px;
+  padding: 8px 35px;
   font-family: Nunito;
-  font-weight: 500;
+  font-weight: 600;
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   background: #e7816b;
@@ -276,13 +276,15 @@
 }
 
 .About_page .talk button {
-  padding: 7px 25px;
   border: none;
   outline: none;
+  padding: 8px 35px;
+  font-family: Nunito;
   font-weight: 600;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   font-size: 13px;
   text-transform: uppercase;
-  border-radius: 5px;
   position: relative;
   z-index: 5;
   -webkit-transition: all .3s linear;
@@ -395,71 +397,78 @@
 @media screen and (min-Width: 950px) and (max-Width: 1200px) {
   .About_page .About_middle {
     width: 100%;
-    height: 40vh;
+    height: 150%;
   }
   .About_page .About_middle .text {
-    padding: 7vh 5vh 7vh 7vh;
+    padding: 15vh 5vh 15vh;
   }
   .About_talent {
     width: 100% !important;
-    height: 40vh !important;
+    height: 100% !important;
   }
   .About_talent .text {
-    padding: 8vh 5vh !important;
+    padding: 15vh 5vh 15vh;
   }
   .About_country {
     width: 100% !important;
   }
   .About_deal {
     width: 100% !important;
-    height: 30vh !important;
+    height: 100% !important;
     margin-bottom: 100px !important;
   }
   .About_deal .text {
-    padding: 6vh 5vh 7vh 7vh !important;
+    padding: 15vh 5vh 15vh;
   }
   .talk {
-    height: 18vh !important;
-    padding: 0 5vh !important;
+    height: 100% !important;
+    padding: 10vh 5vh !important;
   }
   .footer_div {
     height: 100% !important;
-    padding-top: 10vh !important;
+    padding-top: 20vh !important;
   }
 }
 
 /*tablet design*/
 @media screen and (max-Width: 950px) and (min-Width: 700px) {
+  .navbar {
+    text-align: center;
+  }
+  .navbar .navbar-brand img {
+    display: none;
+  }
   .About_middle {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 100% !important;
   }
   .About_middle .text {
     width: 100% !important;
-    height: 50%;
+    height: 50% !important;
     padding: 5vh !important;
     text-align: center;
   }
-  .About_middle .text::before {
-    width: 50% !important;
-  }
   .About_middle .img {
     width: 100% !important;
+    height: 50% !important;
   }
   .About_talent {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 100% !important;
   }
   .About_talent .image {
     width: 100% !important;
+    height: 50% !important;
   }
   .About_talent .text {
     width: 100% !important;
-    height: 50%;
+    height: 50% !important;
     padding: 5vh !important;
     text-align: center;
   }
@@ -477,13 +486,15 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 100% !important;
   }
   .About_deal .img {
     width: 100% !important;
+    height: 50% !important;
   }
   .About_deal .text {
     width: 100% !important;
-    height: 50%;
+    height: 50% !important;
     padding: 5vh !important;
     text-align: center;
   }
@@ -494,8 +505,8 @@
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
-    height: 25vh !important;
-    padding: 4vh 0vh !important;
+    height: 100% !important;
+    padding: 10vh 0vh !important;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -513,13 +524,19 @@
   body {
     padding: 0 10px;
   }
+  .navbar {
+    text-align: center;
+  }
+  .navbar .navbar-brand img {
+    display: none;
+  }
   .About_middle {
     width: 100% !important;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 100vh !important;
+    height: 100% !important;
   }
   .About_middle .text {
     width: 100% !important;
@@ -529,6 +546,107 @@
   .About_middle .img {
     width: 100% !important;
     height: 50% !important;
+  }
+  .About_talent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .About_talent .image {
+    width: 100% !important;
+  }
+  .About_talent .image img {
+    border-radius: 0 !important;
+  }
+  .About_talent .text {
+    width: 100% !important;
+    padding: 5vh 15px !important;
+  }
+  .country {
+    margin-bottom: 50px;
+  }
+  .About_deal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .About_deal .img {
+    width: 100% !important;
+  }
+  .About_deal .img img {
+    border-radius: 0;
+  }
+  .About_deal .text {
+    width: 100% !important;
+    padding: 5vh 15px !important;
+  }
+  .talk {
+    height: 100% !important;
+    width: 95% !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 10vh 15px !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .talk section {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .footer_div {
+    text-align: center;
+    height: 100% !important;
+  }
+  .footer_div .footer_navigation {
+    text-align: center;
+  }
+  .footer_div .footer_navigation .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer_div .footer_navigation .navbar .navbar-brand {
+    margin-right: 0;
+  }
+  .footer_div .footer_navigation .navbar .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer_div .footer_navigation .nav-item:nth-child(3) {
+    margin-right: 20px;
+  }
+  .other_footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .other_footer .address {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .other_footer .contact {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  .other_footer .fonts {
+    width: 100% !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
   }
 }
 /*# sourceMappingURL=About.css.map */
