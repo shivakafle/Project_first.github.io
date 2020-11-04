@@ -96,4 +96,57 @@
      object-fit: cover;
   border-radius: 0 10px 10px 0;
 }
+
+.About_page .About_talent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(255, 130, 102, 0.2);
+  width: 80%;
+  margin: 100px auto;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+.About_page .About_talent .image {
+  width: 40%;
+}
+
+.About_page .About_talent .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.About_page .About_talent .text {
+  width: 60%;
+  padding: 15vh 10vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.About_page .About_talent .text::before {
+  position: absolute;
+  content: '';
+  right: -10%;
+  bottom: -10%;
+  width: 400px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.About_page .About_talent .text h2 {
+  color: #ff8064;
+  font-family: Josefin Sans;
+}
+
+.About_page .About_talent .text p {
+  font-family: Poppins;
+  font-size: 14px;
+}
 /*# sourceMappingURL=About.css.map */
