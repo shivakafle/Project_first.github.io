@@ -5,21 +5,28 @@
           box-sizing: border-box;
 }
 
-/*Homepage*/
-.homepage {
+/*Index page homepage*/
+.All_page {
+  /*Homepage*/
+  /*project Section*/
+  /*service section*/
+  /*talk*/
+}
+
+.All_page .homepage {
   width: 100%;
   /*Navigation*/
   /*Middle part*/
 }
 
-.homepage .navigation {
+.All_page .homepage .navigation {
   width: 80%;
   margin: auto;
   padding: 0;
   font-family: Nunito;
 }
 
-.homepage .navigation .navbar-brand {
+.All_page .homepage .navigation .navbar-brand {
   font-family: Josefin Sans;
   font-weight: 800;
   line-height: 0;
@@ -32,22 +39,22 @@
   letter-spacing: 1px;
 }
 
-.homepage .navigation .navbar-brand img {
+.All_page .homepage .navigation .navbar-brand img {
   margin-top: -10px;
 }
 
-.homepage .navigation .nav-link {
+.All_page .homepage .navigation .nav-link {
   padding: 10px 30px;
   white-space: nowrap;
   font-weight: 500;
   color: #242424;
 }
 
-.homepage .navigation .nav-link:hover {
+.All_page .homepage .navigation .nav-link:hover {
   background: #eeeeee;
 }
 
-.homepage .Middle_part {
+.All_page .homepage .Middle_part {
   width: 80%;
   padding: 15vh 0;
   margin: auto;
@@ -57,7 +64,7 @@
   border-radius: 10px;
 }
 
-.homepage .Middle_part section {
+.All_page .homepage .Middle_part section {
   width: 80%;
   height: 100%;
   margin: auto;
@@ -70,22 +77,22 @@
   font-family: Poppins;
 }
 
-.homepage .Middle_part section .text {
+.All_page .homepage .Middle_part section .text {
   width: 50%;
   color: white;
 }
 
-.homepage .Middle_part section .text h1 {
+.All_page .homepage .Middle_part section .text h1 {
   font-weight: 600;
   font-family: Josefin Sans;
 }
 
-.homepage .Middle_part section .text p {
+.All_page .homepage .Middle_part section .text p {
   font-size: 12px;
   padding-right: 40px;
 }
 
-.homepage .Middle_part section .text button {
+.All_page .homepage .Middle_part section .text button {
   border: none;
   outline: none;
   padding: 8px 30px;
@@ -99,7 +106,7 @@
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
-.homepage .Middle_part section .text button::before {
+.All_page .homepage .Middle_part section .text button::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -112,15 +119,15 @@
   transition: all .3s linear;
 }
 
-.homepage .Middle_part section .text button:hover {
+.All_page .homepage .Middle_part section .text button:hover {
   color: #fff;
 }
 
-.homepage .Middle_part section .text button:hover::before {
+.All_page .homepage .Middle_part section .text button:hover::before {
   width: 100%;
 }
 
-.homepage .Middle_part section .image {
+.All_page .homepage .Middle_part section .image {
   width: 50%;
   height: 100%;
   display: -ms-grid;
@@ -129,12 +136,12 @@
   z-index: 5;
 }
 
-.homepage .Middle_part section .image img {
+.All_page .homepage .Middle_part section .image img {
   -webkit-transform: scale(1.4);
           transform: scale(1.4);
 }
 
-.homepage .Middle_part::before {
+.All_page .homepage .Middle_part::before {
   position: absolute;
   content: '';
   width: 50%;
@@ -145,8 +152,7 @@
   border-radius: 50%;
 }
 
-/*project Section*/
-.project {
+.All_page .project {
   width: 80%;
   margin: 70px auto;
   display: -webkit-box;
@@ -161,16 +167,16 @@
   text-transform: uppercase;
 }
 
-.project h3 {
+.All_page .project h3 {
   font-size: 23px;
 }
 
-.project p {
+.All_page .project p {
   font-size: 12px;
   color: gray;
 }
 
-.project .web_develop {
+.All_page .project .web_develop {
   width: 49%;
   height: 100%;
   background: #000;
@@ -190,7 +196,7 @@
   overflow: hidden;
 }
 
-.project .web_develop::before {
+.All_page .project .web_develop::before {
   position: absolute;
   top: -100%;
   left: 0;
@@ -204,13 +210,13 @@
   transition: all .5s linear;
 }
 
-.project .web_develop:hover::before {
+.All_page .project .web_develop:hover::before {
   top: 0;
   -webkit-transform: scale(2);
           transform: scale(2);
 }
 
-.project .design {
+.All_page .project .design {
   width: 49.5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -226,7 +232,7 @@
   text-align: center;
 }
 
-.project .design .mobile_app {
+.All_page .project .design .mobile_app {
   width: 100%;
   height: 48%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../image/coding.jpg");
@@ -244,7 +250,7 @@
   overflow: hidden;
 }
 
-.project .design .mobile_app::before {
+.All_page .project .design .mobile_app::before {
   position: absolute;
   top: -100%;
   left: 0;
@@ -258,13 +264,13 @@
   transition: all .5s linear;
 }
 
-.project .design .mobile_app:hover::before {
+.All_page .project .design .mobile_app:hover::before {
   top: 0;
   -webkit-transform: scale(2);
           transform: scale(2);
 }
 
-.project .design .graphice_design {
+.All_page .project .design .graphice_design {
   width: 100%;
   height: 48%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../image/programming.png");
@@ -281,7 +287,7 @@
   overflow: hidden;
 }
 
-.project .design .graphice_design::before {
+.All_page .project .design .graphice_design::before {
   position: absolute;
   top: -100%;
   left: 0;
@@ -295,14 +301,13 @@
   transition: all .5s linear;
 }
 
-.project .design .graphice_design:hover::before {
+.All_page .project .design .graphice_design:hover::before {
   top: 0;
   -webkit-transform: scale(2);
           transform: scale(2);
 }
 
-/*service section*/
-.service {
+.All_page .service {
   width: 80%;
   margin: 70px auto;
   display: -webkit-box;
@@ -320,7 +325,7 @@
   padding: 10vh 0;
 }
 
-.service::before {
+.All_page .service::before {
   position: absolute;
   right: 0;
   top: 30%;
@@ -332,7 +337,7 @@
   z-index: -1;
 }
 
-.service .first {
+.All_page .service .first {
   -ms-flex-preferred-size: 31%;
       flex-basis: 31%;
   display: -ms-grid;
@@ -342,12 +347,12 @@
   position: relative;
 }
 
-.service .first img {
+.All_page .service .first img {
   margin-bottom: 80px;
   height: 100px;
 }
 
-.service .first::before {
+.All_page .service .first::before {
   position: absolute;
   top: -20px;
   content: ' ';
@@ -359,7 +364,7 @@
   z-index: -1;
 }
 
-.service .first h3 {
+.All_page .service .first h3 {
   font-family: Josefin Sans;
   color: #252525;
   letter-spacing: 2px;
@@ -367,13 +372,12 @@
   margin-bottom: 20px;
 }
 
-.service .first p {
+.All_page .service .first p {
   font-family: Nunito;
   font-size: 14px;
 }
 
-/*talk*/
-.talk {
+.All_page .talk {
   width: 80%;
   margin: auto;
   height: 35vh;
@@ -395,12 +399,12 @@
   top: 100px;
 }
 
-.talk section {
+.All_page .talk section {
   width: 60%;
   font-family: Josefin Sans;
 }
 
-.talk button {
+.All_page .talk button {
   padding: 7px 25px;
   border: none;
   outline: none;
@@ -416,7 +420,7 @@
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
-.talk button::before {
+.All_page .talk button::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -429,15 +433,15 @@
   transition: all .3s linear;
 }
 
-.talk button:hover {
+.All_page .talk button:hover {
   color: #fff;
 }
 
-.talk button:hover::before {
+.All_page .talk button:hover::before {
   width: 100%;
 }
 
-.footer_div {
+.All_page .footer_div {
   width: 100%;
   height: 50vh;
   background-color: #00171a;
@@ -445,30 +449,30 @@
   padding-top: 20vh;
 }
 
-.footer_div .footer_navigation {
+.All_page .footer_div .footer_navigation {
   width: 80%;
   margin: auto;
   border-bottom: 1px solid rgba(255, 255, 255, 0.349);
 }
 
-.footer_div .footer_navigation .navbar-brand {
+.All_page .footer_div .footer_navigation .navbar-brand {
   margin-left: -20px;
 }
 
-.footer_div .footer_navigation a {
+.All_page .footer_div .footer_navigation a {
   color: #fff;
   white-space: nowrap;
 }
 
-.footer_div .footer_navigation .nav-item {
+.All_page .footer_div .footer_navigation .nav-item {
   margin-right: 20px;
 }
 
-.footer_div .footer_navigation .nav-item:nth-child(3) {
+.All_page .footer_div .footer_navigation .nav-item:nth-child(3) {
   margin-right: -20px;
 }
 
-.footer_div .other_footer {
+.All_page .footer_div .other_footer {
   width: 80%;
   margin: auto;
   margin-top: 40px;
@@ -480,22 +484,22 @@
           justify-content: space-between;
 }
 
-.footer_div .other_footer p {
+.All_page .footer_div .other_footer p {
   color: #fff;
   font-family: Poppins;
   font-size: 13px;
   line-height: 25px;
 }
 
-.footer_div .other_footer .address {
+.All_page .footer_div .other_footer .address {
   width: 30%;
 }
 
-.footer_div .other_footer .contact {
+.All_page .footer_div .other_footer .contact {
   width: 30%;
 }
 
-.footer_div .other_footer .fonts {
+.All_page .footer_div .other_footer .fonts {
   width: 40%;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -508,7 +512,7 @@
           align-items: flex-end;
 }
 
-.footer_div .other_footer .fonts i {
+.All_page .footer_div .other_footer .fonts i {
   font-size: 25px;
   color: #b1b1b1;
   margin: 0 10px;
@@ -518,33 +522,33 @@
 
 /*ipad pro layout*/
 @media screen and (min-Width: 950px) and (max-Width: 1200px) {
-  .Middle_part {
+  .All_page .Middle_part {
     width: 100vw !important;
     padding: 7vh 0 !important;
     border-radius: 0 !important;
   }
-  .Middle_part::before {
+  .All_page .Middle_part::before {
     top: 0;
     right: 5% !important;
     width: 45% !important;
   }
-  .Middle_part svg {
+  .All_page .Middle_part svg {
     display: none;
   }
-  .Middle_part .text {
+  .All_page .Middle_part .text {
     width: 90% !important;
   }
-  .project {
+  .All_page .project {
     height: 30vh;
   }
-  .service {
+  .All_page .service {
     padding: 4vh 0;
   }
-  .talk {
+  .All_page .talk {
     height: 18vh;
     padding: 0 5vh;
   }
-  .footer_div {
+  .All_page .footer_div {
     height: 100%;
     padding-top: 10vh;
   }
@@ -552,13 +556,16 @@
 
 /*tablet design*/
 @media screen and (max-Width: 950px) and (min-Width: 700px) {
-  .navigation .navbar-brand img {
+  .All_page .navigation .navbar-brand img {
     display: none;
   }
-  .Middle_part {
+  .All_page .navigation .navbar {
+    text-align: center;
+  }
+  .All_page .Middle_part {
     padding: 10vh 0 0 0 !important;
   }
-  .Middle_part::before {
+  .All_page .Middle_part::before {
     width: 100% !important;
     height: 70% !important;
     -webkit-transform: scale(1.2);
@@ -566,32 +573,32 @@
     top: 20%;
     right: -30% !important;
   }
-  .Middle_part section {
+  .All_page .Middle_part section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .Middle_part section .text {
+  .All_page .Middle_part section .text {
     width: 100% !important;
     margin-bottom: 50px;
     text-align: center;
     z-index: 10;
   }
-  .Middle_part section .text p {
+  .All_page .Middle_part section .text p {
     padding-right: 0 !important;
   }
-  .Middle_part section .image {
+  .All_page .Middle_part section .image {
     width: 100% !important;
     margin-top: 100px;
   }
-  .project {
+  .All_page .project {
     height: 40vh;
   }
-  .service::before {
+  .All_page .service::before {
     display: none;
   }
-  .service .first {
+  .All_page .service .first {
     min-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -599,10 +606,10 @@
     text-align: left;
     margin-top: 20px;
   }
-  .service .sec img {
+  .All_page .service .sec img {
     width: 40%;
   }
-  .talk {
+  .All_page .talk {
     width: 90%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -615,10 +622,10 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .talk section {
+  .All_page .talk section {
     width: 80%;
   }
-  .footer_div {
+  .All_page .footer_div {
     height: 100%;
     padding-top: 15vh;
   }
@@ -626,18 +633,18 @@
 
 /*Mobile design*/
 @media screen and (max-Width: 700px) and (min-Width: 100px) {
-  .navbar {
+  .All_page .navbar {
     text-align: center;
   }
-  .navbar .navbar-brand img {
+  .All_page .navbar .navbar-brand img {
     display: none;
   }
-  .Middle_part {
+  .All_page .Middle_part {
     width: 100% !important;
     padding: 10vh 0 0 0 !important;
     border-radius: 0 !important;
   }
-  .Middle_part::before {
+  .All_page .Middle_part::before {
     width: 150% !important;
     height: 75% !important;
     -webkit-transform: scale(1.2);
@@ -645,7 +652,7 @@
     top: 20%;
     right: -70% !important;
   }
-  .Middle_part section {
+  .All_page .Middle_part section {
     width: 100% !important;
     padding: 0 20px;
     -webkit-box-orient: vertical;
@@ -653,43 +660,43 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .Middle_part section .text {
+  .All_page .Middle_part section .text {
     width: 100% !important;
     margin-bottom: 50px;
     text-align: center;
     z-index: 10;
   }
-  .Middle_part section .text h1 {
+  .All_page .Middle_part section .text h1 {
     font-size: 35px;
   }
-  .Middle_part section .text p {
+  .All_page .Middle_part section .text p {
     padding-right: 0 !important;
     font-size: 19px;
     line-height: 22px;
   }
-  .Middle_part section .image {
+  .All_page .Middle_part section .image {
     width: 100% !important;
     margin-top: 100px;
   }
-  .project {
+  .All_page .project {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     height: 70vh;
   }
-  .project .web_develop {
+  .All_page .project .web_develop {
     width: 100%;
     margin-bottom: 10px;
   }
-  .project .design {
+  .All_page .project .design {
     width: 100%;
     height: 50vh;
   }
-  .service::before {
+  .All_page .service::before {
     display: none;
   }
-  .service .first {
+  .All_page .service .first {
     min-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -701,10 +708,10 @@
     text-align: center;
     margin-top: 20px;
   }
-  .service .sec img {
+  .All_page .service .sec img {
     width: 40%;
   }
-  .talk {
+  .All_page .talk {
     width: 90%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -716,50 +723,50 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .talk section {
+  .All_page .talk section {
     width: 100%;
     margin-bottom: 30px;
   }
-  .footer_div {
+  .All_page .footer_div {
     text-align: center;
     height: 100%;
   }
-  .footer_div .footer_navigation {
+  .All_page .footer_div .footer_navigation {
     text-align: center;
   }
-  .footer_div .footer_navigation .navbar {
+  .All_page .footer_div .footer_navigation .navbar {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .footer_div .footer_navigation .navbar .navbar-brand {
+  .All_page .footer_div .footer_navigation .navbar .navbar-brand {
     margin-right: 0;
   }
-  .footer_div .footer_navigation .navbar .navbar-nav {
+  .All_page .footer_div .footer_navigation .navbar .navbar-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .footer_div .footer_navigation .nav-item:nth-child(3) {
+  .All_page .footer_div .footer_navigation .nav-item:nth-child(3) {
     margin-right: 20px;
   }
-  .other_footer {
+  .All_page .other_footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .other_footer .address {
+  .All_page .other_footer .address {
     width: 100% !important;
     margin-bottom: 30px;
   }
-  .other_footer .contact {
+  .All_page .other_footer .contact {
     width: 100% !important;
     margin-bottom: 30px;
   }
-  .other_footer .fonts {
+  .All_page .other_footer .fonts {
     width: 100% !important;
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
