@@ -341,10 +341,6 @@
   margin-right: 20px;
 }
 
-.About_page .footer_div .footer_navigation .nav-item:nth-child(3) {
-  margin-right: -20px;
-}
-
 .About_page .footer_div .other_footer {
   width: 80%;
   margin: auto;
@@ -618,15 +614,14 @@
   }
   .footer_div .footer_navigation .navbar .navbar-brand {
     margin-right: 0;
+    font-family: Poppins;
+    font-weight: 700;
   }
   .footer_div .footer_navigation .navbar .navbar-nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .footer_div .footer_navigation .nav-item:nth-child(3) {
-    margin-right: 20px;
   }
   .other_footer {
     -webkit-box-orient: vertical;

@@ -326,10 +326,7 @@ $paragraph_font:Poppins;
       .nav-item {
         margin-right: 20px;
 
-        &:nth-child(3) {
-          margin-right: -20px;
 
-        }
       }
     }
 
@@ -617,6 +614,8 @@ $paragraph_font:Poppins;
 
         .navbar-brand {
           margin-right: 0;
+          font-family: $paragraph_font;
+          font-weight: 700;
         }
 
         .navbar-nav {
@@ -627,9 +626,7 @@ $paragraph_font:Poppins;
     }
   }
 
-  .footer_div .footer_navigation .nav-item:nth-child(3) {
-    margin-right: 20px;
-  }
+
 
   .other_footer {
     flex-direction: column;
