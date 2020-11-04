@@ -513,5 +513,22 @@
   body {
     padding: 0 10px;
   }
+  .About_middle {
+    width: 100% !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh !important;
+  }
+  .About_middle .text {
+    width: 100% !important;
+    height: 50% !important;
+    padding: 5vh 15px !important;
+  }
+  .About_middle .img {
+    width: 100% !important;
+    height: 50% !important;
+  }
 }
 /*# sourceMappingURL=About.css.map */

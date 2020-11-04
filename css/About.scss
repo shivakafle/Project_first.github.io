@@ -510,4 +510,21 @@ $paragraph_font:Poppins;
   body {
     padding: 0 10px;
   }
+
+  .About_middle {
+    width: 100% !important;
+    flex-direction: column;
+    height: 100vh !important;
+
+    .text {
+      width: 100% !important;
+      height: 50% !important;
+      padding: 5vh 15px !important;
+    }
+
+    .img {
+      width: 100% !important;
+      height: 50% !important;
+    }
+  }
 }
