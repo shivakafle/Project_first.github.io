@@ -25,15 +25,22 @@ $paragraph_font:Poppins;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .About_page {
   width: 100%;
 
   /*Navigation*/
   .navigation {
     width: 80%;
-    margin: auto;
-    padding: 0;
+    margin: 0 auto 5px;
+    padding: 10px 0;
     font-family: Nunito;
+
 
     .navbar-brand {
       font-family: Josefin Sans;
@@ -55,8 +62,8 @@ $paragraph_font:Poppins;
       color: rgb(36, 36, 36);
 
       &:hover {
-        background: rgb(238, 238, 238);
-
+        color: black;
+        font-weight: 600;
       }
     }
 
@@ -272,7 +279,11 @@ $paragraph_font:Poppins;
     }
 
     button {
-      @include btn();
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600;
+      padding: 7px 30px;
       font-size: 13px;
       text-transform: uppercase;
       position: relative;
